@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Roboto&display=swap');
+
+/* The above code is an imported font from google font. below is a global tag that gives a common style or used to target everything in my page */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gluten', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+/* this is where i styled my logo */
+.logo img{
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 40%;
+}
+/* this styling effect helps to hide the logo and I later displayed it when I hovered over the side-menu, this is found further down this styling page */
+.logo{
+    overflow: hidden;
+}
+
+/* styling for the side menue */
+.side-menu{
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0c012f;
+    height: 100vh;
+    /* width: 20%; */
+    width: 80px;
+    padding: 0 20px;
+    transition:all 0.5s;
+
+}
+/* here I altered the styling in the side menu by changing the width once it is hovered on */
+.side-menu:hover{
+    width: 20%;
+}
+
+ul li{
+    padding:10px;
+
+}
+ul a{
+    display: flex;
+    gap: 15px;
+}
+ul i{
+    font-size: 20px;
+}
+
+.sign-out{
+    position: relative;
+    bottom: 0;
+    background-color: rgb(161, 30, 30);
+    /* width: 100%; */
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+ul{
+    /* position: relative; */
+    height: 80vh;
+    width: 70%;
+}
+
+ul li a:hover{
+    background-color: rgb(161, 30, 30);
+}
+
+ul li a{
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+ul a span{
+    overflow: hidden;
+}
+
+/* I used the body of the html to flex the direct divs that is the side menu and others. this does not affect grand-children (that is nested divs) */
+body{
+    display: flex;
+     background-image: url(/image/background.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: none;
+}
+
+.main-section{
+    width: 96%;
+}
+
+.main-section h1{
+    color: lightgray;
+}
+/* this is the container holding all the items like profile photos, search bar and heading */
+.profile{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(161, 30, 30);
+    width: 90%;
+    box-shadow: 2px 2px 14px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome{
+    margin-left: 10px;
+}
+.welcome span{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.profile-info{
+    display: flex;
+    gap: 100px;
+    align-items: center;   
+}
+
+.profile-pics input{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.search input{
+    padding: 8px 20px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.search{
+    position: relative;
+}
+
+.search button{
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: dodgerblue;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+
+}
+
+/* here is the begining of another session where I have
+my cards with each card containing vital students info */
+
+.section-2{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+/* here is the first card */
+.pass{
+    width: 20%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 15px;
+    display: flex;
+}
+/* styling the contents of the first card */
+.ime{
+    /* the image container for the first card */
+    width: 50%;
+}
+.ime img{
+    width: 100%;
+}
+/* image styling for the first card ends here */
+/* here is styling for the text in the first card */
+.passcode{
+    width: 60%;
+}
+
+.passcode span{
+    display: block;
+    margin: 20px 0;
+}
+#spc{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.spc{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(161, 30, 30);
+}
+/* styling the second card */
+.proj-img{
+    width: 50%;
+}
+.proj-img img{
+    width: 100%;
+    margin-top: 10px;
+}
+.proj span{
+    display: block;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.cohort-img{
+    width: 60%;
+}
+.cohort-img img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cohort span{
+    display: block;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+/* styling for the third card ends here and the fourth card's styling begins here*/
+.beg span{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(161, 30, 30);
+    margin-top: 10px;
+}
+
+#countings{
+    margin-top: 10px;
+}
+/* this is the box holding the remaining months to be spent by a student */
+#expiryInfo{
+    width: 40%;
+    padding: 3px;
+    font-size: 25px;
+    background-image: linear-gradient(90deg, black, darkblue, white);
+    text-align: center;
+    color: white;
+}
+
+/* here is the performance and assignment grading session */
+
+.a3{
+    width: 70px;
+}
+.a3 img{
+    width: 30px;
+}
+/* the assignment div class holds the whole content in two boxes containing both assignment, scores and time counter */
+.assignment{
+    
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 96%;
+}
+.assignment h2{
+    color: rgb(161, 30, 30);
+    text-shadow: 1px 1px 2px #0c012f;
+}
+/* The assignment-flex is used to display the two rectagles in an horizontal way */
+.assignment-flex{
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    padding: 20px 8px;
+    /* background-color: lightgrey; */
+    
+}
+/* this is the left white box containing assignment like html, css */
+.grade{
+    display: flex;
+    background-color: white;
+    width: 47%;
+    padding: 35px 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 3px 4px 15px;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 60px;
+}
+.a1 h4{
+    margin-bottom: 13px;
+}
+/* here I styled the fractions representing performance in the assignment on html and css and in the right box, it also affects the number representing the time spent on the site */
+#sup{
+    font-size: 20px;
+    color: rgb(161, 30, 30);
+    font-weight: bold;
+}
+/* this is the green button showing that an assigment is complete. it is on the left box */
+.complete{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+/* here is the icon mark */
+.complete i{
+    font-size: 10px;
+}
+
+/* This is where i styled the right box */
+.position{
+    display: flex;
+    width: 47%;
+    background-color: white;
+    padding: 15px 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 3px 4px 15px;
+    font-size: 20px;
+  
+}
+/* timy is a child of product div class above */
+.timy{
+    width: 50%;
+    display: flex;
+    margin: 0 10px;
+}
+.lef{
+    padding: 10px; 
+}
+.rit{
+    margin-top: 30px;
+}
+.lef p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.rit i{
+    font-size: 20px;
+    /* margin-top: 30px; */
+}
+/* this is the button that displays the time spent on the site when clicked */
+.rit button{
+    background-color: lightgrey;
+    color:rgb(161, 30, 30);
+    padding: 5px 5px;
+    font-size: 25px;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    cursor: pointer;
+}
+.assign{
+    width: 70%;
+    margin-top: 20px;
+}
+.icon{
+    padding-right: 10px;
+   
+}
+/* This is the icon and the background styling of the assignment on the right part of the right box */
+.icon i{
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 35px;
+    padding: 5px 17px;
+    background-color: papayawhip;
+    border-radius: 5px;
+}
+.assign p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.event-container{
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.upcoming{
+    width: 40%;
+}
+.down img{
+    width: 40px;
+}
+/* #ups{
+    margin-left: 200px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+

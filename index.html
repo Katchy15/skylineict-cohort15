@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/188d62c901.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- here is where i created a div which holds, the profile picture, search box, and the site title -->
+    <div class="side-menu">
+        <!-- this div is for the logo. it is inside the patent div ''side-menu' -->
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-book"></i>
+                    <span>My Courses</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>My Profile</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-people-group"></i>
+                    <span>My Cohots</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-gears"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+
+            <li class="sign-out">
+                <a href="#">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Sign Out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- this is where the side-menu ends -->
+    <!-- another div for the main section of the page begins here -->
+    <div class="main-section">
+        
+       <div class="profile">
+           <!-- this div above is used to flex the children divs under it -->
+            <div class="welcome">
+            <span>BrainTech ICT Hub</span>
+            <h1>E-Portal</h1>
+           </div>
+
+
+           <div class="profile-info">
+               <div class="search">
+                   <input type="text" name="" id="" place holder="search">
+                   <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+               </div>
+               <div class="profile-pics">
+                   <input type="image" src="/image/TeacherRecord.JPG" alt="" placeholder="upload here">
+
+               </div>
+
+           </div>
+       </div>
+       <!-- the section for heading and profile picture ends here -->
+<!-- A new section for cards begins here -->
+       <div class="section-2">
+           <div class="pass">
+               <div class="ime">
+                   <img src="/image/student.jpg" alt="">
+               </div>
+               <div class="passcode">
+                   <span id="spc">Student Passcode</span>
+                   <span class="spc">Pass28323</span>
+               </div>
+           </div>
+           <!-- here is the second card -->
+           <div class="pass">
+            <div class="proj">
+                <span id="spc">Project Score</span>
+                <span class="spc">16%</span>
+            </div>
+            <div class="proj-img">
+                <img src="/image/project.jpg" alt="">
+            </div>
+                
+        </div>
+
+        <!-- here ends the second card and begins the 3rd card -->
+        <div class="pass">
+            <div class="cohort-img">
+                <img src="/image/cohort.jpg" alt="">
+            </div>
+            <div class="cohort">
+                <span id="spc">Cohort</span>
+                <span class="spc">15</span>
+            </div>
+                
+        </div>
+        <!-- here is the end of the 3rd card and the start of the fourth card -->
+
+        <div class="pass">
+            <div class="status">
+                <div class="beg">
+                    <span>Start:</span>
+                    <span>July</span>
+                </div>
+                <div id="countings">
+                    <h4>Months to Graduation</h4>
+                    <div id="expiryInfo">
+                        00
+                    </div>
+                    <span>months</span>
+                </div>
+            </div>
+            <div class="cohort-img">
+                <img src="/image/grad-tech.png" alt="">
+            </div>
+                
+        </div>
+       </div>
+
+       <!-- this is the end of this section. a new section begins here -->
+
+       <div class="assignment">
+           <h2>My Assignment</h2>
+           <div class="assignment-flex">
+               <!-- Grade is the left box in the assignment section of this page -->
+            <div class="grade">
+                <div class="a1">
+                 <h4>HTML form with CSS design</h4>
+                 <span>Event Form with html and css</span>
+                </div>
+                <div class="a2">
+                    <span id="sup"><sup>99</sup>/<sub>100</sub> </span>
+                </div>
+                <div class="complete">completed <i class="fa-solid fa-check"></i>
+                </div>
+            </div>
+            <!-- This right box in the assignment section -->
+            <div class="position">
+                <div class="timy">
+                    <div class="lef">
+                       <h2 id="timeDisplay"> 00:00:00</h2>
+                       <br>
+                       <h4>Time Spent</h4>
+                       <br>
+                       <p>+1.5% this week</p>
+                    </div>
+                    <div class="rit">
+                        <!-- Here is a clickable button to display time spent on the site -->
+                        
+                        <button onclick="endTimer()" title="click here to see time spent"><i class="fa-solid fa-user-clock"></i></button>
+                        
+                    </div>
+                </div>
+                <div class="timy">
+                    <div class="assign">
+                        <h3>17/33</h3>
+                        <br>
+                        <h5>Assignments</h5>
+                        <br>
+                        <p>+1 This week</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+                </div>
+                
+            </div>
+           </div>
+
+       </div>
+
+       <!--  Here is section for upcoming events and announcements-->
+       <!-- <div class="event-container">
+        
+           <div class="upcoming">
+            <h2>Upcoming Class</h2>
+               <div class="ups">
+                   <span>Interaction</span><span id="ups">Section 4</span>
+                   <hr>
+               </div>
+               <div class="mids">
+                   <span><i class="fa-solid fa-calendar"></i></span><span>Wednesday, 29th Nov</span><span><i class="fa-solid fa-grip-lines-vertical"></i></span><span><i class="fa-solid fa-clock"></i></span>
+               </div>
+               <div class="down">
+                   <img src="/image/TeacherRecord.JPG" alt=""><span>By Hilson Iyke</span>
+               </div>
+           </div>
+           <div class="upcoming"></div>
+       </div> -->
+        
+    </div>
+    <!-- below is the javascript code for both the time spent and months remaining -->
+   <script src="dash.js"></script>
+   <script src="time-spent.js"></script>
+</body>
+</html>
