@@ -1,0 +1,331 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: rgb(228, 219, 219);
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-a{
+    float: left;
+    width: 58%;
+    margin-top: 90px;
+    margin-left: 18px;
+}
+
+img{
+    width: 70%;
+    border-radius: 50%;
+    height: 46px;
+
+         
+}
+
+.flex-a{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    padding: 0 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 2px grey;
+    margin-bottom:4px;
+
+}
+
+.mycase h3{
+    font-size: 20px;
+}
+
+
+table, tr, td{
+    border-collapse: collapse;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+    
+}
+
+table{
+    width: 100%;
+    
+}
+
+thead{
+    background-color: rgba(175, 243, 243, 0.498);
+    color: gray;
+}
+
+.my{
+    padding-left: 80px;
+}
+
+input{
+    margin-right: 10px;
+    /* user-select: all; */
+
+}
+
+.a{
+    background-color: rgba(0, 128, 0, 0.361);
+    border-radius: 30px;
+    color: green;
+    text-align: center;        
+}
+
+.b{
+    background-color: rgba(255, 166, 0, 0.449);
+    border-radius: 30px;
+    text-align: center;
+    color: orangered;
+    width: 2px;
+    
+}
+
+.font{
+    font-weight: bold;
+}
+
+.align{
+    
+    padding-left: 30px;
+}
+
+.c{
+    background-color: rgba(255, 0, 0, 0.315);
+    color: red;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+.see{
+    background-color: whitesmoke;
+    border-radius: 40px;
+    cursor: pointer;
+    color: grey;
+    
+    
+}
+
+.see:hover{
+    color: blue;
+    border-radius: 10px;
+    
+}
+
+.view{
+    background-color: whitesmoke;
+    border-radius: 40px;
+    cursor: pointer;
+    color: grey;
+    
+}
+
+.view:hover{
+    color: blue;
+    border-radius: 10px;
+    
+}
+
+.section-b{
+    float: left;
+    width: 38%;
+    margin-top: 90px;
+    margin-left: 15px;
+}
+
+.flex-b{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    padding: 0 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 2px grey;
+    margin-bottom:4px;
+}
+
+.flex-c{
+    display: flex;
+    height: 8vh;
+    
+}
+
+.email{
+    
+    font-size: 10px;
+    color: blue;
+    width: 20%;
+    padding-right: 180px;
+}
+
+.user{
+    padding-right: 50%;
+    margin-top: 50px;
+}
+
+.user h4{
+    font-size: 15px;
+}
+
+.color{
+    background-color: whitesmoke;
+    
+}
+
+
+/* Ipad Tablet responsive */
+
+@media (min-device-width: 769px) and (max-device-width: 1024px) {
+    body{
+        max-width: 200%;
+        
+    }
+
+    
+    .section-a{
+    
+    width: 55%;
+  
+    }
+
+    .inbox h3{
+        font-size: 20px;
+    }
+
+  
+    .a{
+        background-color: rgba(0, 128, 0, 0.361);
+        border-radius: 30px;
+        color: green;
+        text-align: center;
+                
+    }
+    
+    input{
+        position: absolute;
+        left: 18px;
+        
+
+    }
+
+    .flex-b{
+        position: absolute;
+        top: 20px;
+        /* right: 10px; */
+        width: 37%;
+        margin-top: 6.8%;
+        /* left: 60%; */        
+    }
+
+    .flex-c{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        /* width: 35%; */
+        margin-right: 10px;
+        margin-top: 110px;
+        
+        
+    }
+
+
+}
+
+
+/* mobile device response */
+
+@media (min-device-width: 481px) and (max-device-width: 768px) {
+    body{
+        max-width: 100%;
+        background-color: rgba(30, 143, 255, 0.085);
+        max-height: 500%;
+        
+    }
+
+    .section-a{
+    
+        width: 65%;
+      
+    }
+    
+        .inbox h3{
+            font-size: 20px;
+        }
+
+         
+      
+        .a{
+            background-color: rgba(0, 128, 0, 0.361);
+            border-radius: 30px;
+            color: green;
+            text-align: center;
+            font-size: 10px;
+            width: 1px;
+                    
+        }
+
+        .b{
+            background-color: rgba(255, 166, 0, 0.449);
+            border-radius: 30px;
+            text-align: center;
+            color: orangered;
+            width: 2px;
+            font-size: 10px;
+        }
+
+
+        .c{
+            background-color: rgba(255, 0, 0, 0.315);
+            color: red;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 10px;
+            width: 1px;
+        }
+        
+        input{
+            position: absolute;
+                
+            
+    
+        }
+    
+        .flex-b{
+            position: absolute;
+            bottom: 12px;
+            width: 50%;
+            
+                    
+        }
+    
+        .flex-c{
+            position: absolute;
+            left: 16px;
+            margin-bottom: 1px;
+            
+            
+            
+            
+        }
+    
+}
+
+
+
+
+
+
+
+
