@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    padding: 50px;
+}
+/* Here is my .container design */
+.container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmxj1e3rCNvfZS0Rm9F92vWXGQ-qfiCqWO8g&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 60%;
+    margin: auto;
+}
+/* Here is my main design */
+.main{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 75vh;
+    width: 95%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main img{
+    height: 20vh;
+    width: 20%;
+    margin: 30px 245px;
+    padding: 50px 30px;
+    border: solid 5px;
+    border-radius: 20px;
+}
+.main h2 a{
+    margin: 40px 165px ;
+    
+}
+.main a{
+    text-decoration: none;
+    margin: 30px 285px ;
+    color: beige;
+    background-color: rgb(63, 92, 145);
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 10px 10px 10px grey;
+}
+.main a:hover{
+    padding: 12px;
+}
+/* Mobile Responsiveness designs */
+/* Design for tablets from 601×962 to 1280×800 */
+@media (min-width:601px) and (max-width:1280px){
+
+    /* Here is my image Design */
+    .main img{
+        height: 20vh;
+        width: 30%;
+        margin: 30px 125px;
+        padding: 50px 30px;
+        border: solid 5px;
+        border-radius: 20px;
+    }
+    /* Here is my email and password links' designs */
+    .main h2 a{
+        margin: 40px 112px ;
+        
+    }
+    .main a{
+        
+        margin: 30px 169px ;
+        color: beige;
+        background-color: rgb(63, 92, 145);
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 15px;
+        box-shadow: 10px 10px 10px grey;
+    }
+}
+/* Design for mobiles less than width 600px */
+@media  (max-width:600px){
+     /* Here is my container Design */
+    .container{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmxj1e3rCNvfZS0Rm9F92vWXGQ-qfiCqWO8g&usqp=CAU);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+        width: 95%;
+        margin: auto;
+    }
+    /* Here is my image Design */
+    .main img{
+        height: 20vh;
+        width: 25%;
+        margin: 30px 85px;
+        padding: 50px 30px;
+        border: solid 5px;
+        border-radius: 20px;
+    }
+     /* Here is my email and password links' designs */
+     .main h2 a{
+        margin: 40px 83px ;
+        
+    }
+    .main a{
+        
+        margin: 30px 120px ;
+        color: beige;
+        background-color: rgb(63, 92, 145);
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 10px;
+        box-shadow: 10px 10px 10px grey;
+    }
+}
