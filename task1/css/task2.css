@@ -1,0 +1,46 @@
+.card-container{
+    background-color:white;
+    width: 93%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    height: 200px;
+ }
+ .card-container h1{
+    color: #0c012f;
+    font-size: 20px;
+ }
+
+ .card-flex{
+    display: flex;
+    gap: 3rem;
+ }
+ .card-student{
+    background-color:rgba(3,39, 47, 0.566);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 23.5%;
+    height: 120px;
+    border-radius: 10px;
+    transition: all 0.5sec ease-in-out;
+    box-shadow: 2px 2px 2px 1px goldenrod;
+    cursor:pointer ;
+
+ }
+ .card-student:hover{
+    transform: translate(-5px);
+
+ }
+ .card-header{
+    display: flex;
+    justify-content: space-between;
+ }
+.ty{
+    background-color:azure;
+    height: 50vh;
+    padding: 10px;
+}

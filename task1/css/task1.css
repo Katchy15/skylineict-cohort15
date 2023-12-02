@@ -1,0 +1,49 @@
+
+table, td, th {
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+    border-color: dodgerblue;
+    
+}
+table{
+    width: 50%;
+    font-size: 20px;
+}
+td, th{
+    padding: 8px;
+    border-color: dodgerblue;   
+}
+td img{
+    width: 30px;
+}
+.id{
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.ut{
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.check{
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+th{
+    /* background-color:black; */
+    color: black;
+    
+}
+
+/* tr:nth-child(odd){ 
+    background-color: gray;
+ } */
+/* tr:hover{ 
+    background-color: aquamarine;
+ }  */
+ 
