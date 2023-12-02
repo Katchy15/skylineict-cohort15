@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: rgb(228, 166, 253);
+
+}
+/* my caleder design start here */
+.num{
+    background-color: aliceblue;
+    width: 85%;
+    margin: auto;
+    padding: 5px 12px 15px 12px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+}
+.flex-date{
+    display: flex;
+    justify-content: space-around;
+}
+.num p{
+    margin-bottom: 7px;
+    color: grey;
+    font-size: 13px;
+}
+.cale{
+    color: gray;
+    font-size: 13px;
+}
+/* my caleder design ends here */
+
+.flex-re1{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+
+.house-flex{
+    display: flex;
+    
+    
+}
+
+.text-h h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.course{
+    width: 85%;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 5px 12px 15px 12px;
+    border-radius: 13px;
+    
+}
+.img-f img{
+    width: 60%;
+    height: 70%;
+    
+}
+.text-f{
+    margin-left: -30px;
+    
+
+}
+.text-f h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.mod{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+.jen h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px; 
+}
+.star{
+    font-size: 12px;
+    color: rgb(255, 145, 0);
+    margin-top: 10px;
+
+}
+.rate{
+    color: gray;
+
+}
+
+.roll{
+    background-color: blueviolet;
+    padding: 9px 12px;
+    color: aliceblue;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.roll a{
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.dot{
+    position: absolute;
+    top: 21%;
+    color: black;
+    font-size: 20px;
+    margin-right: 8px;
+
+    
+}
+.img-f2 img{
+    width: 24%;
+}
+.text-f2{
+    margin-left: -210px;
+}
+.text-f2 h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
