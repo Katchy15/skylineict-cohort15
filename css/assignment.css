@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(221, 228, 235);
+}
+.contianer{
+    width: 95%;
+    margin: auto;
+    height: 55vh;
+    background-color: aliceblue;
+    margin-top: 25px;
+    
+}
+.assign-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin: 0px 43px ;
+    margin-bottom: 10px;
+}
+.sea{
+    color: gray;
+    font-size: 14px;
+}
+.icon{
+    color: gray;
+    margin-left: 10px;
+    font-size: 14px;
+    
+}
+
+.component-flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    padding: 15px 10px;
+    border-radius: 12px;
+    box-shadow: 4px 3px 10px 0px rgb(170, 85, 250);
+    border-left: 3px solid rgb(59, 59, 71);
+    margin-bottom: 23px;
+   
+}
+
+.component-flex2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    padding: 15px 10px;
+    border-radius: 12px;
+    box-shadow: 4px 3px 10px 0px rgb(250, 137, 85);
+    border-left: 3px solid rgb(111, 111, 148);
+    margin-bottom: 15px;
+
+}
+
+
+.inter{
+    margin-top: 8px;
+    color: gray;
+
+}
+.qual{
+    margin-top: 8px;
+    color: gray;
+ 
+}
+
+.guy{
+    background-color: rgba(142, 38, 240, 0.233);
+    padding: 5px 11px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(124, 14, 226);
+}
+.guy2{
+    background-color: rgba(250, 137, 85, 0.466);
+    padding: 5px 11px;
+    border-radius: 8px;
+    font-weight: bold;
+    color:rgb(238, 90, 22);
+
+}
+
