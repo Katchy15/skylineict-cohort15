@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../flex.htmland css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Signup html&css"
+	}
+}

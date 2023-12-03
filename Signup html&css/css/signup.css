@@ -1,0 +1,93 @@
+
+.container1{
+    background-image:url(/img/signup.html\ image.jpg); width:50% ;padding: 5px;
+}
+.container2{font-family: Arial, Helvetica, sans-serif;background-color: white;width: 90%;
+    margin: 25px; text-align:center;border-radius: 10px; padding:5px 5px;
+}
+h1{
+    text-align: center;
+}
+.gen { display: flex;}
+p{ margin: auto;}
+ input[type=text]{border: none;border-bottom: 1px solid; background: transparent; }
+input[type=tel]{border: none;border-bottom: 1px solid; background: transparent;width: 500px;}
+input[type=email]{border: none;border-bottom: 1px solid; background: transparent;width: 500px}
+ label.mail{position: absolute;left:7% ; top:28%;font-size: 13px;color: rgb(190, 190, 241);}
+ label.phone{position: absolute;left:7% ; top:37%;font-size: 13px;color: rgb(171, 171, 250); }
+ label.gender{position: absolute;left:8% ; top:47%;font-size: 13px;color: rgb(169, 169, 240);}
+ label.age{position: absolute;left:30% ; top:47%;font-size: 13px; color: rgb(179, 179, 245);}
+ label.names{position: absolute;left:7% ; top:20%;font-size: 13px;color: rgb(188, 188, 241);}
+ .names::after{ content: "*"; color: red;}
+ .mail::after{ content: "*"; color: red;}
+ input[type=submit]{padding: 5px 35px; border-radius: 5px; border: none;font-size: 13px;
+    background-color:rgb(5, 5, 117) ;color: aliceblue;}
+
+    .up::before, .up::after{ content:"" ; padding: 1px;
+        background-color:rgb(187, 187, 204); flex: 1; margin:12px 13px;}
+        .up{margin: 20px;  display: flex; text-align: center; padding:0px 72px; font-size:13px;} 
+        h1{color: rgb(13, 13, 175);}
+       input::placeholder { color:darkblue; font-size: 10px;}
+       input[placeholder]{color: rgb(198, 206, 216);}
+       .account{ font-size: 13px;}
+       i.fa-facebook{ color: rgb(0, 119, 255);font-size: 25px;position: relative;top: 40%;}
+       i.fa-apple{background-color:  rgb(0, 153, 255); color:white;padding: 3px;border-radius: 10px;
+         position: relative;font-size: 20px;}
+         .account{ font-size: 13px;color: grey;margin-bottom: 10px;}
+         input[type=text].name{border: none;border-bottom: 1px solid;
+             background: transparent;width: 500px;}
+             .apple { position: absolute;top: 76%;left: 28%;}
+             .face{ position: absolute;top: 76%; left:24.5%;}
+            a img{ position: absolute;top: 74.5%; left:21% ; background-color: antiquewhite;}
+            .sign{ margin-left: 6px;text-decoration: none;}
+            /* Mobile responsiveness starts */
+            @media screen and (min-width:200px ) and (max-width:500px) {.container1{width: 100%; 
+                background-image: url(/img/signup\ img\ 2.jfif);}                 
+               .apple { position: absolute;top: 77%;left: 60%;}
+              .face{ position: absolute;top: 77%; left:50.5%;}
+              a img{ position: absolute;top: 75.5%; left:40% ; background-color: antiquewhite;}
+              label.age{position: absolute;right:1% ; top:47%;font-size: 13px; color: rgb(179, 179, 245);}
+              label.gender{position: absolute;left:18% ; top:47%;font-size: 13px;color: rgb(169, 169, 240);}
+              label.names{position: absolute;left:18% ; top:20%;font-size: 13px;color: rgb(188, 188, 241);}
+              label.mail{position: absolute;left:18% ; top:28%;font-size: 13px;color: rgb(190, 190, 241);}  
+              label.phone{position: absolute;left:18% ; top:37%;font-size: 13px;color: rgb(171, 171, 250); }   
+             input[type=text]{border: none;border-bottom: 1px solid;
+                 background: transparent;width:100px; margin-right:12%;}
+              input[type=tel]{border: none;border-bottom: 1px solid;
+                background: transparent;width: 330px;margin-left:-20px;}
+              input[type=email]{border: none;border-bottom: 1px solid; 
+                background: transparent;width: 330px;margin-left: -20px;}
+              input[type=text].name{border: none;border-bottom: 1px solid;
+                background: transparent;width: 330px; margin-left:40px;}
+                p{ margin: auto; width:250px ;} 
+            }
+            @media screen and ( min-width:500.5px) and (max-width:1100px) { 
+                .container1{width: 100%;  background-image: url(/img/signup\ image4.jfif); }
+                 input[type=email]{border: none;border-bottom: 1px solid; 
+                   background: transparent;width: 80%;margin-left: -30px;}
+                 input[type=text].name{border: none;border-bottom: 1px solid;
+                   background: transparent;width: 80%; margin-right: 30px;}
+                input[type=text]{border: none;border-bottom: 1px solid;
+                    background: transparent;width:100px; margin-right: 180px;}
+                 input[type=tel]{border: none;border-bottom: 1px solid;width: 80%; margin-right: 30px;}
+                   p{ margin: auto; width:250px ;}
+                   label.age{position: absolute;right:15% ; top:47%;font-size: 13px;
+                    color: rgb(169, 169, 240);}
+                    label.gender{position: absolute;left:12% ; top:47%;font-size: 13px;color: rgb(169, 169, 240);}
+                    label.phone{position: absolute;left:12% ; top:37%;font-size: 13px;color: rgb(171, 171, 250); }   
+                    label.mail{position: absolute;left:12% ; top:28%;font-size: 13px;color: rgb(171, 171, 250); }   
+                    label.names{position: absolute;left:12% ; top:20%;font-size: 13px;color: rgb(171, 171, 250); }   
+                    p{ margin: auto; width:250px ;} 
+                    .apple { position: absolute;top: 77%;left: 56%;}
+                    .face{ position: absolute;top: 77%; left:49%;}
+                    a img{ position: absolute;top: 75.5%; left:40% ; background-color: antiquewhite;}
+                  
+                  }
+                   /* @media screen and ( min-width:801px)and (max-width:1700px) { .container1{ width: 100px; background-image: url(/img/signup\ image3.jfif);} */ */
+                    
+                  }
+
+            
+                
+            
+                
