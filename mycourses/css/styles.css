@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik:wght@300&family=Space+Grotesk:wght@300&display=swap');
+
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+}
+
+/* this is my header styling */
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px ;
+    margin-bottom: -30px;
+    
+}
+h2{
+font-size: 25px;
+padding-top: 15px;
+}
+
+.header2{
+    padding-right: 35px;
+    padding-top: 20px;   
+
+}
+
+/* my header styling ends here */
+
+
+.fullstack-img img{
+    border-radius: 20px;
+    height: 200px;
+    width: 90%;
+    margin: 20px 20px;
+}
+h3{
+    margin: 0px 20px;
+    font-size: 20px;
+
+}
+.container{
+     /* background-color: lightcyan; */
+    /* background-image: linear-gradient(to right, rgb(190, 126, 126) 3%, rgb(179, 179, 62) 60%); */
+    background-image: linear-gradient(to right, rgb(209, 209, 209), rgb(149, 138, 247));
+    width: 100%;
+
+}
+.container-flex{
+    display: flex; 
+    
+    
+}
+
+.fullstack-container{
+   border-radius: 20px;
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+    
+}
+
+.fullstack-container:hover{
+    /* border: 2px solid rgb(122, 122, 182); */
+    box-shadow: 0 0 0 2px blue;
+}
+
+/* my progress bar styling starts here */
+
+.progress-bar{
+    position: relative;
+    /* width: 370px; */
+    width: 80%;
+    height: 20px;
+    background-color: rgb(214, 250, 238);
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+.progress-fill{
+    width: 25%;
+    height: 100%;
+    background-color:green;
+    border-radius: 10px;
+    
+}
+
+.two{
+    width: 55%;
+    height: 100%;
+    background-color:green;
+    border-radius: 10px;  
+}
+
+.three{
+    width: 75%;
+    height: 100%;
+    background-color:green;
+    border-radius: 10px;
+}
+
+.progress-text{
+    position: absolute;
+    top: 0px;
+    left: 380px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+/* progress bar endss here */
+
+/* button styling starts here */
+.button p{
+    background-color: aliceblue;
+    border: 2px solid purple;
+    width: 85%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    
+      
+}
+.button p:hover{
+    background-color: rgb(109, 109, 151);
+    color: aliceblue;
+}
+
+
+/* my mobile responsiveness starts here */
+
+@media (min-width: 400px) and (max-width: 909px){
+ .container-flex{
+      display: block;  
+      
+    }
+    .container{
+        width: 100%;
+    }
+    .fullstack-container{
+        border-radius: 20px;
+         background-color: aliceblue;
+         width: 90%;
+         margin: 20px 40px;
+         transition: 0.2s;
+         padding: 1px 0px;
+         display: inline-block;
+         
+     }
+     .progress-bar{
+        position: relative;
+        width: 80%;
+        height: 20px;
+        background-color: rgb(214, 250, 238);
+        border-radius: 10px;
+        margin: 20px;
+        
+    }
+    .progress-text{
+        position: absolute;
+        top: 0px;
+        /* left: 340px; */
+        left: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    .button p{
+        background-color: aliceblue;
+        border: 2px solid purple;
+        width: 85%;
+        margin: 20px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px;   
+    }
+
+}
+
+@media (min-width:909px) and (max-width:1489px) {
+
+.container{
+    width: 100%;
+    font-size: 18px;
+
+}
+.fullstack-img img{
+    border-radius: 20px;
+    height: 200px;
+    width: 95%;
+   margin: 20px 10px;
+}
+.progress-text{
+    left: 104%;
+}
+.button{
+    padding: 1px;
+    width: 90%;
+}
+.progress-bar{
+    width: 79%;
+    margin-left: 10px;
+}
+h3{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+}
+
+
+
+    
+
+
+
+
